@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Post, Type } from '@nestjs/common'
+import { Body, Controller, Get, Post } from '@nestjs/common'
 import { AppService } from './app.service'
 
 type ResponseType = {
